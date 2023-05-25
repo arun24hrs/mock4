@@ -1,9 +1,107 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "username": "arun",
+      "email": "arun@gmail.com",
+      "password": "asfasfas",
+      "isDoc": true,
+      "id": 1
+    },
+    {
+      "username": "abhi",
+      "email": "abhi@gmail.com",
+      "password": "asfwerfasdf",
+      "isDoc": false,
+      "id": 2
+    },
+    {
+      "username": "raj",
+      "email": "raj@gmail.com",
+      "password": "raj",
+      "isDoc": true,
+      "id": 3
+    },
+    {
+      "username": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "isDoc": true,
+      "id": 4
+    },
+    {
+      "username": "Dino",
+      "email": "dino@gmail.com",
+      "password": "dino",
+      "isDoc": false,
+      "id": 5
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "appointments": [
+    {
+      "name": "John",
+      "image": "https://rukminim1.flixcart.com/image/832/832/kuwzssw0/sari/w/c/3/free-kaju-da-mirror-nqueen-unstitched-original-imag7xzmgc8ddfeq.jpeg?q=70",
+      "specialization": "ENT",
+      "experience": "4",
+      "location": "Delhi",
+      "date": "2023-05-26",
+      "slots": "4",
+      "fee": "500",
+      "id": 2
+    },
+    {
+      "name": "Ram",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/w/p/o/xxl-frml-st2-vebnor-original-imag6bkegkwmqv75-bb.jpeg?q=70",
+      "specialization": "Cardio",
+      "experience": "6",
+      "location": "Lucknow",
+      "date": "2023-05-27",
+      "slots": "7",
+      "fee": "400",
+      "id": 3
+    },
+    {
+      "name": "Tigor",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/cargo/r/s/p/xxl-grey-black-2407-abcustoms-original-imag59fcyjfewvew-bb.jpeg?q=70",
+      "specialization": "Ortho",
+      "experience": "3",
+      "location": "Punjab",
+      "date": "2023-05-26",
+      "slots": "6",
+      "fee": "500",
+      "id": 4
+    },
+    {
+      "name": "Sanjay",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/cargo/r/s/p/xxl-grey-black-2407-abcustoms-original-imag59fcyjfewvew-bb.jpeg?q=70",
+      "specialization": "Ent",
+      "experience": "8",
+      "location": "New Delhi",
+      "date": "2023-05-26",
+      "slots": "2",
+      "fee": "1000",
+      "id": 5
+    },
+    {
+      "name": "",
+      "image": "",
+      "specialization": "",
+      "experience": "",
+      "location": "",
+      "date": "",
+      "slots": "",
+      "fee": "",
+      "id": 6
+    },
+    {
+      "name": "Arun",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/8/b/y/s-t338hs-bl-new-eyebogler-original-imagf8ycrydf3zwz-bb.jpeg?q=70",
+      "specialization": "Pediat",
+      "experience": "4",
+      "location": "Kolkata",
+      "date": "2023-05-26",
+      "slots": "4",
+      "fee": "800",
+      "id": 7
+    }
+  ]
 }
